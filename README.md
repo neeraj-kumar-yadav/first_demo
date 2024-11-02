@@ -1,5 +1,5 @@
 # Flower Species Classification with CNN
-This project classifies images of flowers into five species using a Convolutional Neural Network (CNN). The model is trained on a dataset with images of lotus, orchids, roses, sunflowers, lilis and tulips.
+This project classifies images of flowers into five species using a Convolutional Neural Network (CNN). The model is trained on a dataset with images of lotus, orchids, roses, sunflowers, lilies and tulips.
 
 ## Project Overview
 This deep learning project implements a CNN-based classification model that achieves high accuracy in categorizing flower species. Techniques like transfer learning with EfficientNetB0, VGG16, and InceptionV3 have been explored to optimize performance. The final model is saved as final_model.h5 for future predictions and integration into applications.
