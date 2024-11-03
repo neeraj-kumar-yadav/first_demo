@@ -1,8 +1,8 @@
 # Flower Species Classification with CNN
-This project classifies images of flowers into five species using a Convolutional Neural Network (CNN). The model is trained on a dataset with images of lotus, orchids, roses, sunflowers, lilies and tulips.
+This project classifies images of flowers into five species using a Convolutional Neural Network (CNN). The model is trained on a dataset with images of lotus, orchids, sunflowers, lilies and tulips.
 
 ## Project Overview
-This deep learning project implements a CNN-based classification model that achieves high accuracy in categorizing flower species. Techniques like transfer learning with EfficientNetB0, VGG16, and InceptionV3 have been explored to optimize performance. The final model is saved as final_model.h5 for future predictions and integration into applications.
+This deep learning project implements a CNN-based classification model that achieves high accuracy in categorizing flower species. Techniques like transfer learning with EfficientNetB0, Xception, and InceptionV3 have been explored to optimize performance. The final model is saved as final_model.h5 for future predictions and integration into applications.
 
 ## Table of Contents
 Project overview  
@@ -18,8 +18,7 @@ License
 The dataset consists of images of five types of flowers:
 
 Lotus: 1000 images  
-Orchids: 1000 images  
-Rose: 784 images  
+Orchids: 1000 images   
 Sunflower: 1000 images  
 Lily: 1000 images  
 Tulip: 1000 images  
@@ -29,7 +28,7 @@ Each flower category has its own folder in the dataset. Images are used for trai
 The project uses multiple CNN architectures to test and optimize model performance:
 
 **EfficientNetB0:** Provided the best results with balanced accuracy and minimal overfitting.  
-**VGG16:** Delivered good results but had overfitting issues.  
+**Xception:** Delivered good results but had overfitting issues.  
 **InceptionV3:** Helped in achieving lower loss values, especially for the 5-class problem.  
 The final model, based on EfficientNetB0, is saved as final_model.h5.  
 
