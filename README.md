@@ -38,7 +38,7 @@ The model is trained on TensorFlow with Jupyter Notebook. Transfer learning was 
 Current Performance Metrics:  
 Training Accuracy: 98%  
 Validation Accuracy: 95%  
-Training loss: 0.0345
+Training loss: 0.0345  
 Validation loss: 0.1342 
 
 ## Results
