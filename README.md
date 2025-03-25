@@ -42,7 +42,7 @@ Training loss: 0.0345
 Validation loss: 0.1342 
 
 ## Results
-After extensive training, the model accurately predicts flower species. However, there is an issue where the model predicts "tulip" for all custom inputs, indicating potential class imbalance or dataset issues. This will be addressed in future updates.
+After extensive training, the model accurately predicts flower species. However, there is an issue where the model predicts "tulip" for majority of custom inputs, indicating potential class imbalance or dataset issues. This will be addressed in future updates.
 
 ## Future Work
 Resolve the "tulip" bias in predictions on custom inputs.  
