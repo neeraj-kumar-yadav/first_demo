@@ -49,7 +49,7 @@ Resolve the "tulip" bias in predictions on custom inputs.
 Experiment with additional data augmentation techniques.  
 Explore ensemble methods like bagging to further improve accuracy.  
 Develop an interactive user interface for easy prediction.  
-Add image detection functionality.
+Add image detection functionality so that if there are two flowers in one image then my model can detect it.
 
 ## Contributing
 Contributions are welcome! Please open an issue first to discuss what you would like to change.
